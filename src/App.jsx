@@ -1,14 +1,10 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 import { IoIosArrowRoundDown } from 'react-icons/io';
 
-function App() {
-  const [count, setCount] = useState(0);
-
+export default function App() {
   return (
     <>
       <nav>
@@ -52,5 +48,3 @@ function App() {
     </>
   );
 }
-
-export default App;
