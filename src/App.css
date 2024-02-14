@@ -1,0 +1,139 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.burger {
+  font-size: 2rem;
+}
+
+.arrow-forward {
+  font-size: 3rem;
+}
+
+.lets-connect-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.arrow-down {
+  font-size: 6rem;
+  color: rgb(213, 89, 46);
+  cursor: pointer;
+}
+
+.lets-connect-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgb(213, 89, 46);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.lets-connect-wrapper:hover {
+  color: rgb(134, 203, 185);
+}
+
+.max-growth-text {
+  border-bottom: 5px solid rgb(134, 203, 185);
+
+}
+
+.top-main {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.understanding-text {
+  font-size: 3rem;
+}
+
+.orchard-logo-wrapper-2 {
+  background-image: url(https://growatorchard.com/wp-content/uploads/2020/07/DSC_7651_Grey-scaled.jpg);
+  text-align: center;
+  padding: 10px 20px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.the-gif {
+  height: 150px;
+}
+
+.orchard-logo {
+  height: 40px;
+}
+
+.orchard-logo-wrapper {
+  display: none;
+}
+
+.understanding-text {
+  /* border: 5px solid red; */
+  max-width: 1200px;
+}
+
+@media screen and (min-width: 800px) {
+  .the-gif {
+    height: 300px;
+  }
+
+  .understanding-text {
+    font-size: 4rem;
+  }
+  main {
+    gap: 100px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .burger {
+    display: none;
+  }
+  .understanding-text {
+    font-size: 5rem;
+  }
+
+  .orchard-logo {
+    height: 60px;
+  }
+
+  .orchard-logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .orchard-logo-wrapper > p {
+    text-transform: uppercase;
+    color: gray;
+  }
+  .orange-orchard-logo {
+    height: 60px;
+  }
+
+  .top-main {
+    padding-top: 240px;
+  }
+  main {
+    gap: 200px;
+  }
+}
